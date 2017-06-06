@@ -39,3 +39,10 @@
 @media (max-width: 768px) {
 
 }
+
+@font-face {
+  font-family: "Serverless-Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Serverless-Regular"), local("serverless-regular-v3"), url("/assets/fonts/serverless-regular-v3.otf") format('opentype');
+}
