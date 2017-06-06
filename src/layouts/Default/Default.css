@@ -8,7 +8,7 @@ html {
   min-height: calc(100vh - $navHeight);
 }
 .page {
-  max-width: 96rem;
+  max-width: 108rem;
   margin: 20px auto 0 auto;
   img {
     max-width: 100%;
