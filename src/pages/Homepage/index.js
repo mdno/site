@@ -74,14 +74,12 @@ export default class Homepage extends Component {
             </div>
           </div>
 
-          <ContentBlock title='The serverless Architecture' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/architecture.gif'}>
-            <p>
-              Deploy your applications as independent functions, that respond to events, charge you only when they run, and scale automatically.
-            </p>
+          <ContentBlock title='Framework' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/architecture.gif'}>
+            <p>Build web, mobile, IoT apps and event-driven automation with the open-source serverless application framework.</p>
           </ContentBlock>
 
-          <ContentBlock title='The serverless Framework' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/framework.gif'}>
-            <p>The open-source, application framework to easily build serverless architectures on AWS Lambda & more.  Startups and Fortune 500 companies are using it to build incredibly efficient applications.</p>
+          <ContentBlock title='Platform' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/framework.gif'}>
+            <p>The event-driven platform-as-a-service. Easily publish events from your apps & integrations, and react to them with serverless functions located anywhere.</p>
             <p>
               <Link to='/framework'>
                 View the framework
@@ -89,18 +87,6 @@ export default class Homepage extends Component {
             </p>
           </ContentBlock>
 
-          <ContentBlock title='The serverless Community' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/community.png'}>
-            <p>Over 1,900 people are in our chat room and on our forum every day discussing the serverless Framework and serverless Architectures. Join us!</p>
-            <p>
-              <a href='https://gitter.im/serverless/serverless' target='_blank' rel='noopener noreferrer'>
-              Join the Chatroom
-              </a>
-              <br />
-              <a href='http://forum.serverless.com' target='_blank' rel='noopener noreferrer'>
-              Check out the Forum
-              </a>
-            </p>
-          </ContentBlock>
         </div>
       </Default>
     )

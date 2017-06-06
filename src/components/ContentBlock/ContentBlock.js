@@ -13,14 +13,14 @@ const ContentBlock = ({ children, color, style, title, image }) => {
   const imageSrc = image || 'http://www.fillmurray.com/200/200'
   const colorStyle = styles[color] || ''
   return (
-    <div className={'contentBlocks'}>
+    <div className={styles.contentBlocks}>
       <section style={style} className={`${styles.wrapper} ${colorStyle}`}>
         <div className={styles.inner}>
           <span className={styles.image}>
             <img src={imageSrc} alt='' draggable='false' />
           </span>
           <div className={styles.content}>
-            <h2 className={styles.title}>{title}</h2>
+            <h2 className={styles.title}><span className={styles.headingLogo}>ß <span className={styles.headingLogoText}>serverless</span></span>{title}</h2>
             {children}
           </div>
         </div>
