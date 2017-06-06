@@ -80,11 +80,6 @@ export default class Homepage extends Component {
 
           <ContentBlock title='Platform' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/framework.gif'}>
             <p>The event-driven platform-as-a-service. Easily publish events from your apps & integrations, and react to them with serverless functions located anywhere.</p>
-            <p>
-              <Link to='/framework'>
-                View the framework
-              </Link>
-            </p>
           </ContentBlock>
 
         </div>
