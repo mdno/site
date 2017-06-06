@@ -1,26 +1,12 @@
 .header {
-  color: #eee;
-  background: $black2;
-  /*  background: transparent;*/
-  font-family: 'Avenir Next W00', sans-serif;
-  font-weight: normal;
 }
 
 .bumper {
-  height: $navHeight;
-  width: 100%;
 }
 .navFixed, .navWrapper, .navItems, .navItem {
   height: $navHeight;
 }
 .navFixed {
-  background: white;
-  /*  background: transparent;*/
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 10;
   height: $navHeight;
 }
 
