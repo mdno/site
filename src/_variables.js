@@ -11,11 +11,13 @@ module.exports = () => {
     footerHeight: '155px',
     // -- Colors
     yellow: '#ffd734',
-    red: '#e55934',
+    red: '#f15953',
+    red2: '#cd433f',
+    red3: '#a63c38',
     gray1: '#aaa',
     gray2: '#202020',
-    black1: '#212121',
-    black2: '#191919',
+    black1: '#1e2024',
+    black2: '#23252a',
     // -- Fonts
     fontSize: baseFontSize,
     fontSizeTiny: formatFont(1.2),
