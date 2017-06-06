@@ -61,6 +61,19 @@ export default class Homepage extends Component {
             </div>
           </div>
 
+          <div className={styles.events}>
+            <div className={styles.event}>
+              <div className={styles.eventLogo}>
+                <img src='/assets/images/emit-logo.png' />
+              </div>
+              <div className={styles.eventContent}>
+                <h4 className={styles.eventName}>Announcing emit 2017</h4>
+                <p className={styles.eventDescription}>The first conference on event-driven architectures.</p>
+                <Link className={styles.eventAction} to={'https://emitconference.com/'}>register here</Link>
+              </div>
+            </div>
+          </div>
+
           <ContentBlock title='The serverless Architecture' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/architecture.gif'}>
             <p>
               Deploy your applications as independent functions, that respond to events, charge you only when they run, and scale automatically.

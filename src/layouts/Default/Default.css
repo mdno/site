@@ -3,6 +3,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   -webkit-font-smoothing: antialiased;
+  color: $black1;
+}
+body {
+  font-family: Gibson, sans-serif;
+  line-height: 1;
+}
+img {
+  max-width: 100%;
 }
 .base {
   min-height: calc(100vh - $navHeight);
@@ -25,7 +33,6 @@ html {
   a {
     color: $black2;
     text-decoration: none;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
     font-weight: 400;
   }
   strong a {
