@@ -26,33 +26,30 @@ export default class Homepage extends Component {
     return (
       <Default {...this.props} fullWidth>
         <div className={styles.wrapper}>
-          <div className={styles.top}>
-            <div className={styles.bg}>
-              <div className={styles.hero}>
-                <div className={`${styles.heroLeft} fadeIn fadeInShort`}>
+          <div className={styles.bg}>
+            <div className={styles.hero}>
+              <div className={`${styles.heroLeft} fadeIn fadeInShort`}>
 
-                  <div className={styles.heroFramework}>
-                    <div className={styles.heroStrip1}>Build serverless, event-driven apps</div>
-                    <div className={styles.heroStrip2}>with the <span className={styles.colored}>serverless framework</span> and <span className={styles.colored}>platform</span></div>
-                  </div>
+                <div className={styles.heroFramework}>
+                  <div className={styles.heroStrip1}>Build serverless, event-driven apps</div>
+                  <div className={styles.heroStrip2}>with the <span className={styles.colored}>serverless framework</span> and <span className={styles.colored}>platform</span></div>
+                </div>
 
-                  <div className={styles.logoWrapper}>
-                    <img className={styles.providerLogos} src={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/providers_black.png'} alt='aws Lambda' />
-                  </div>
-                  <div className={styles.cta}>
-                    <Button kind='black' href='/beta'>
+                <div className={styles.logoWrapper}>
+                  <img className={styles.providerLogos} src={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/providers_black.png'} alt='aws Lambda' />
+                </div>
+                <div className={styles.cta}>
+                  <Button kind='black' href='/beta'>
                         <span className={styles.ctaInner}>
                           <span className={styles.ctaText}>Join the serverless platform beta</span>
                         </span>
-                    </Button>
-                  </div>
-                </div>
-                <div ref='animDiv' className={`${styles.heroRight} zoomxIn zoomInxLong`}>
-                  <Terminal commands={terminalCommands} />
+                  </Button>
                 </div>
               </div>
+              <div ref='animDiv' className={`${styles.heroRight} zoomxIn zoomInxLong`}>
+                <Terminal commands={terminalCommands} />
+              </div>
             </div>
-
           </div>
 
           <div className={styles.customers}>
