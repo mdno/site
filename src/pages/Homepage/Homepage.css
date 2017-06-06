@@ -70,7 +70,7 @@ a.yellowLink {
   transform: rotate(-3deg);
   transform-origin: 0 0;
   background-color: $black2;
-  padding: 1rem 2rem;
+  padding: 1.75rem 2rem;
   font-size: 2.4rem;
   color: #fff;
 }
@@ -78,7 +78,7 @@ a.yellowLink {
   transform: rotate(2deg);
   transform-origin: 0 0;
   background-color: $black2;
-  padding: 1rem 2rem;
+  padding: 1.75rem 2rem;
   font-size: 2rem;
   color: #fff;
 }
@@ -91,7 +91,7 @@ a.yellowLink {
   font-size: 2rem;
 }
 .cta a {
-  padding: 1.5rem 2.5rem;
+  padding: 2rem 2.5rem;
   background-color: $red;
   border-bottom: 3px solid $red3;
   transition: background-color 300ms ease-in-out;
