@@ -72,12 +72,11 @@ export default class Header extends Component {
                 <li className={styles.navItem}>
                   <Link to='/company' className={styles.link}>Company</Link>
                 </li>
-                <Auth className={styles.auth} loggedInComponent={<span />}>
-                  <li className={styles.navItem}>
+                <li className={styles.navItem}>
+                  <Auth className={styles.auth} loggedInComponent={<span />}>
                     <span className={`${styles.link} ${styles.yellowLink}`}>Sign-Up</span>
-                  </li>
-                </Auth>
-
+                  </Auth>
+                </li>
               </ul>
             </nav>
           </div>
