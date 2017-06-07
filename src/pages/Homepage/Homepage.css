@@ -18,7 +18,7 @@ a.yellowLink {
   }
 }
 .content {
-  max-width: 122rem;
+  max-width: 125rem;
   margin: auto;
   padding-bottom: 100px;
   a {
@@ -44,7 +44,7 @@ a.yellowLink {
 .hero {
   display: flex;
   position: inherit;
-  max-width: 122rem;
+  max-width: 125rem;
   margin: auto;
   width: 100%;
   margin: 0 auto;
@@ -125,7 +125,7 @@ a.yellowLink {
 }
 
 .customers {
-  max-width: 122rem;
+  max-width: 125rem;
   width: 100%;
   align-self: center;
   margin-bottom: 10rem;
