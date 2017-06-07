@@ -3,6 +3,9 @@
 
 .bumper {
 }
+.navLeft {
+  margin-left: 6rem;
+}
 .navFixed, .navWrapper, .navItems, .navItem {
   height: $navHeight;
 }
@@ -11,7 +14,6 @@
 }
 
 .navWrapper {
-  font-family: "Avenir Next W00", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +22,6 @@
   max-width: 125rem;
   margin: auto;
   position: relative;
-  padding: 0 1rem 0 1rem;
   &.fullWidth {
     max-width: 100%;
     width: 100%;
@@ -39,14 +40,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-family: Serverless-Regular;
   text-decoration: none;
   color: #f15953;
 }
 .logoText {
   margin-left: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
+  letter-spacing: -1px;
   text-transform: lowercase;
   color: $black1;
 }
@@ -255,6 +257,9 @@ $lineHeight: 2px;
   }
   .auth {
     width: 100%;
+  }
+  .navLeft {
+    margin-left: 0;
   }
   .navRight {
     display: none;
