@@ -218,6 +218,44 @@ a.yellowLink {
   margin-top:0px;
   padding: 80px 0;
 }
+.praise {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  max-width: 125rem;
+}
+.title {
+  margin-bottom: 3rem;
+  font-weight: 500;
+  font-size: 6rem;
+  font-family: Serverless-Regular, monospace;
+  text-transform: lowercase;
+}
+.praiseLeft {
+  width: 40%;
+  text-align: center;
+  ;
+
+  img {
+    max-width: 23rem;
+  }
+}
+.praiseRight {
+  width: 60%;
+}
+.praiseText {
+  max-width: 60rem;
+  font-size: 2.2rem;
+  line-height: 1.7;
+}
+.praiseAuthor {
+  display: block;
+  font-family: Serverless-Regular, monospace;
+  margin-top: 3rem;
+}
+
 @media (max-width: 1060px) {
   .hero {
     padding-top: 40px;

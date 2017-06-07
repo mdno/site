@@ -82,6 +82,16 @@ export default class Homepage extends Component {
             <p>The event-driven platform-as-a-service. Easily publish events from your apps & integrations, and react to them with serverless functions located anywhere.</p>
           </ContentBlock>
 
+          <div className={styles.praise}>
+            <div className={styles.praiseLeft}>
+              <img src='/assets/images/customer-nordstrom.png' />
+            </div>
+            <div className={styles.praiseRight}>
+              <h2 className={styles.title}>Praise</h2>
+              <p className={styles.praiseText}>We continue to recommend the framework to teams both internal and external as a way of organizing and standardizing deployments.
+              <span className={styles.praiseAuthor}>- Rob Gruhl, Senior Manager, Nordstrom</span></p>
+            </div>
+          </div>
         </div>
       </Default>
     )
