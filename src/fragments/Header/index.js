@@ -1,8 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { Link } from 'react-router'
-import Svg from 'react-svg-inline'
 import handleClickAway from '../../utils/handleClickAway'
-import gitHubSvg from '../../assets/icons/github.svg'
 import styles from './Header.css'
 import Auth from '../../components/Auth/Auth'
 
@@ -79,11 +77,6 @@ export default class Header extends Component {
                     <span className={`${styles.link} ${styles.yellowLink}`}>Sign-Up</span>
                   </li>
                 </Auth>
-                <li className={`${styles.navItem} ${styles.noMobile}`}>
-                  <a href='https://www.github.com/serverless/serverless' target='_blank' rel='noopener noreferrer' className={styles.link}>
-                    <Svg svg={gitHubSvg} cleanup />
-                  </a>
-                </li>
 
               </ul>
             </nav>
