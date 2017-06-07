@@ -219,12 +219,29 @@ a.yellowLink {
   padding: 80px 0;
 }
 .praise {
+  ;
+
+  &:before {
+    content: "";
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    background-color: #e8e8e8;
+  }
+
+   .contentWrap {
+     margin-top: 10rem;
+     margin-bottom: 10rem;
+   }
+}
+.contentWrap {
   display: flex;
   justify-content: space-between;
-  align-self: center;
   align-items: center;
-  width: 100%;
   max-width: 125rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title {
   margin-bottom: 3rem;
