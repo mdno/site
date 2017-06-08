@@ -1,5 +1,6 @@
 .contentBlocks {
-  max-width: 125rem;
+  width: 100%;
+  max-width: 112rem;
   margin: 12rem auto;
 }
 .wrapper {
@@ -22,10 +23,11 @@
   margin: 0 auto;
 }
 .content {
-  width: 50%;
-  -ms-flex: 2;
+  width: 100%;
+  max-width: 45rem;
+  ;
   p {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     line-height: 1.7;
   }
 }
@@ -47,22 +49,23 @@
   color: $black1;
 }
 .image {
-  width: 40%;
-  overflow: hidden;
+  width: 100%;
+  max-width: 50rem;
   text-align: center;
   ;
   img {
     width: auto;
     max-width: 90%;
-    max-height: 29rem;
+    max-height: 38rem;
   }
 }
-.wrapper:nth-child(2n - 1) .inner {
-  flex-direction: row-reverse;
-  text-align: left;
-}
-.contentBlocks:nth-child(odd) .image {
+.contentBlocks:nth-child(even) .image {
   order: 1;
+  ;
+
+  img {
+    max-height: 30rem;
+  }
 }
 @media (max-width: 1060px) {
   .wrapper .inner {

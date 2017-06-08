@@ -14,17 +14,15 @@ const ContentBlock = ({ children, color, style, title, image }) => {
   const colorStyle = styles[color] || ''
   return (
     <div className={styles.contentBlocks}>
-      <section style={style} className={`${styles.wrapper} ${colorStyle}`}>
-        <div className={styles.inner}>
-          <span className={styles.image}>
-            <img src={imageSrc} alt='' draggable='false' />
-          </span>
-          <div className={styles.content}>
-            <h2 className={styles.title}><span className={styles.headingLogo}>ß <span className={styles.headingLogoText}>serverless</span></span>{title}</h2>
-            {children}
-          </div>
+      <div className={styles.inner}>
+        <span className={styles.image}>
+          <img src={imageSrc} alt='' draggable='false' />
+        </span>
+        <div className={styles.content}>
+          <h2 className={styles.title}><span className={styles.headingLogo}>ß <span className={styles.headingLogoText}>serverless</span></span>{title}</h2>
+			{children}
         </div>
-      </section>
+      </div>
     </div>
   )
 }
