@@ -79,7 +79,7 @@ export default class Homepage extends Component {
           </ContentBlock>
 
           <ContentBlock title='Platform' image={'/assets/images/icon-platform.png'}>
-            <p>The event-driven platform-as-a-service. Easily publish events from your apps & integrations, and react to them with serverless functions located anywhere.</p>
+            <p>The event-driven platform-as-a-service.<br/>Easily publish events from your apps & integrations, and react to them with serverless functions located anywhere.</p>
           </ContentBlock>
 
           <div className={styles.praise}>
