@@ -17,17 +17,6 @@ a.yellowLink {
     background: 0 0;
   }
 }
-.content {
-  max-width: 125rem;
-  margin: auto;
-  padding-bottom: 100px;
-  a {
-    color: #222;
-    font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
-  }
-}
 .bg {
   margin-bottom: 50px;
 }
