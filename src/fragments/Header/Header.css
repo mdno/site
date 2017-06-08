@@ -38,7 +38,6 @@
 
 .logo {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   font-size: 4rem;
   font-family: Serverless-Regular;
@@ -59,30 +58,29 @@
 }
 
 .navItems {
-  padding: 0px;
-  margin: 0px;
   list-style: none;
-  font-family: "Gibson";
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-family: "Gibson", sans-serif;
+  font-size: 2.2rem;
+  word-spacing: 2px;
+  letter-spacing: 0.75px;
+  text-transform: lowercase;
+  ;
   li, a {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-transform: lowercase;
   }
 }
 .link {
   display: flex;
   align-items: center;
-  padding: 7px 9px 12px 9px;
+  padding: 1rem 1.2rem;
   color: inherit;
   text-decoration: none;
   color: $black1;
   cursor: pointer;
   transition: color 0.2s linear;
-  letter-spacing: -0.5px;
   border: none;
   &:hover {
 
