@@ -74,11 +74,11 @@ export default class Homepage extends Component {
             </div>
           </div>
 
-          <ContentBlock title='Framework' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/architecture.gif'}>
+          <ContentBlock title='Framework' image={'/assets/images/icon-framework.png'}>
             <p>Build web, mobile, IoT apps and event-driven automation with the open-source serverless application framework.</p>
           </ContentBlock>
 
-          <ContentBlock title='Platform' image={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/framework.gif'}>
+          <ContentBlock title='Platform' image={'/assets/images/icon-platform.png'}>
             <p>The event-driven platform-as-a-service. Easily publish events from your apps & integrations, and react to them with serverless functions located anywhere.</p>
           </ContentBlock>
 
