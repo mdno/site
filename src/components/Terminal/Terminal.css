@@ -10,9 +10,8 @@
 }
 .terminal {
   width: 100%;
-  max-width: 500px;
-  height: 40%;
-  min-height: 330px;
+  max-width: 60rem;
+  min-height: 40rem;
   background: $black1;/*$black1;*/
   transition: box-shadow .3s linear;
   background: $black1 url(../../assets/images/terminal_glare.png) no-repeat center;
@@ -31,8 +30,12 @@
   line-height: 1.5;
   :global(.command) {
     display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: Courier, monospace;
     color: white;
-    margin-bottom: 10px;
+    ;
     &:before {
       content: '$ ';
       color: white;
