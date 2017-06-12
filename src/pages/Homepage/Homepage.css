@@ -18,7 +18,10 @@ a.yellowLink {
   }
 }
 .bg {
-  margin-bottom: 50px;
+  padding-top: 7rem;
+  padding-bottom: 12rem;
+  background: url('/assets/images/graffiti-white-bottom.png') center bottom/contain,
+                    url('/assets/images/hero-background.png') center top/cover;
 }
 .logoWrapper {
   margin: 5rem auto 4rem;
@@ -36,7 +39,6 @@ a.yellowLink {
   max-width: 125rem;
   margin: auto;
   width: 100%;
-  margin: 0 auto;
   padding-top: 5rem;
   flex-flow: row wrap;
   align-self: flex-start;
@@ -116,7 +118,7 @@ a.yellowLink {
   max-width: 125rem;
   width: 100%;
   align-self: center;
-  margin-bottom: 10rem;
+  margin: 5rem auto 5rem auto;
 }
 .heading {
   margin-top: 2rem;
@@ -140,7 +142,6 @@ a.yellowLink {
   width: 100%;
   max-width: 96rem;
   align-self: center;
-  margin-top: 5rem;
   margin-bottom: 5rem;
   ;
   &:after {

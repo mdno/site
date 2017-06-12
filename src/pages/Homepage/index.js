@@ -50,14 +50,14 @@ export default class Homepage extends Component {
                 <Terminal commands={terminalCommands} />
               </div>
             </div>
-          </div>
 
-          <div className={styles.customers}>
-            <h2 className={styles.heading}>Trusted by</h2>
-            <div className={styles.customerLogos}>
-              <img className={styles.customerLogo} src='/assets/images/customer-nordstrom.png' />
-              <img className={styles.customerLogo} src='/assets/images/customer-coke.png' />
-              <img className={styles.customerLogo} src='/assets/images/customer-nike.png' />
+            <div className={styles.customers}>
+              <h2 className={styles.heading}>Trusted by</h2>
+              <div className={styles.customerLogos}>
+                <img className={styles.customerLogo} src='/assets/images/customer-nordstrom.png' />
+                <img className={styles.customerLogo} src='/assets/images/customer-coke.png' />
+                <img className={styles.customerLogo} src='/assets/images/customer-nike.png' />
+              </div>
             </div>
           </div>
 
