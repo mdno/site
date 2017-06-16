@@ -34,7 +34,7 @@
 .title {
   font-weight: 500;
   font-size: 6rem;
-  font-family: Serverless-Regular, monospace;
+  font-family: Serverless, monospace;
   text-transform: lowercase;
 }
 .headingLogo {

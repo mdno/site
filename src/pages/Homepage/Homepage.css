@@ -54,7 +54,7 @@ a.yellowLink {
 }
 .heroFramework {
   text-transform: lowercase;
-  font-family: Serverless-Regular, Gibson, sans-serif;
+  font-family: Serverless, Gibson, sans-serif;
 }
 .heroStrip1 {
   transform: rotate(-3deg);
@@ -76,7 +76,7 @@ a.yellowLink {
   text-align: center;
   text-transform: lowercase;
   align-items: center;
-  font-family: Serverless-Regular, Gibson, monospace;
+  font-family: Serverless, Gibson, monospace;
   font-weight: 600;
   font-size: 2rem;
 }
@@ -123,7 +123,7 @@ a.yellowLink {
 .heading {
   margin-top: 2rem;
   margin-bottom: 5rem;
-  font-family: Serverless-Regular, Gibson, monospace;
+  font-family: Serverless, Gibson, monospace;
   text-transform: lowercase;
   font-weight: 300;
   text-align: center;
@@ -176,14 +176,14 @@ a.yellowLink {
   ;
 
   & .eventAction {
-    font-family: Serverless-Regular, Gibson, monospace;
+    font-family: Serverless, Gibson, monospace;
     font-size: 2rem;
     color: $red;
   }
 }
 .eventName {
   font-size: 3rem;
-  font-family: Serverless-Regular, Gibson, monospace;
+  font-family: Serverless, Gibson, monospace;
   font-weight: 400;
 }
 .eventDescription {
@@ -236,7 +236,7 @@ a.yellowLink {
   margin-bottom: 3rem;
   font-weight: 500;
   font-size: 6rem;
-  font-family: Serverless-Regular, monospace;
+  font-family: Serverless, monospace;
   text-transform: lowercase;
 }
 .praiseLeft {
@@ -258,7 +258,7 @@ a.yellowLink {
 }
 .praiseAuthor {
   display: block;
-  font-family: Serverless-Regular, monospace;
+  font-family: Serverless, monospace;
   margin-top: 3rem;
 }
 

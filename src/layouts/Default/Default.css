@@ -53,10 +53,10 @@ img {
 }
 
 @font-face {
-  font-family: "Serverless-Regular";
+  font-family: "Serverless";
   font-weight: normal;
   font-style: normal;
-  src: local("Serverless-Regular"), local("serverless-regular-v3"), url("/assets/fonts/serverless-regular-v3.otf") format('opentype');
+  src: local("Serverless"), local("serverless-regular-v3"), url("/assets/fonts/serverless-regular-v3.otf") format('opentype');
 }
 
 @font-face {

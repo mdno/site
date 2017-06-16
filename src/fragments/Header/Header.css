@@ -45,7 +45,7 @@
   display: flex;
   align-items: center;
   font-size: 4rem;
-  font-family: Serverless-Regular;
+  font-family: Serverless, monospace;
   text-decoration: none;
   color: #f15953;
 }

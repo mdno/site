@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   font-size: 5rem;
-  font-family: Serverless-Regular;
+  font-family: Serverless;
   text-decoration: none;
   color: $red;
 }
