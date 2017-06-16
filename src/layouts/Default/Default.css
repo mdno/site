@@ -17,15 +17,12 @@ img {
 .page {
   max-width: 125rem;
   margin: 7rem auto 0 auto;
-  img {
-    max-width: 100%;
-  }
-  a {
-    color: $black2;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    font-weight: 400;
-  }
+}
+a {
+  color: $black2;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  font-weight: 400;
 }
 .fullWidth {
   width: 100%;
