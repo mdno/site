@@ -136,3 +136,59 @@ $buttonPadding: 12px;
   background-color: $yellow;
   min-width: 142px;
 }
+.red {
+  outline: 0!important;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  text-transform: lowercase;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  font-size: 20px;
+  padding: 1.5rem 2rem;
+  height: auto;
+  color: white;
+  background-color: $red;
+  min-width: 142px;
+}
+.primary {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 0;
+  font-weight: 500;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  text-transform: lowercase;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  font-size: 20px;
+  padding: 1.5rem 2rem;
+  height: auto;
+  color: white;
+  background-color: $red;
+  min-width: 142px;
+}
+.secondary {
+  display: block;
+  margin: 1.5rem auto 0;
+  font-weight: 500;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  text-transform: lowercase;
+  cursor: pointer;
+  user-select: none;
+  font-size: 20px;
+  padding: 1.5rem 2rem;
+  height: auto;
+  color: $red;
+  min-width: 142px;
+  border: 2px solid;
+}
