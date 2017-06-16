@@ -48,6 +48,7 @@
   font-family: Serverless, monospace;
   text-decoration: none;
   color: #f15953;
+  border: none;
 }
 .logoText {
   margin-left: 1rem;
