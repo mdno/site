@@ -148,8 +148,8 @@ $buttonPadding: 12px;
   cursor: pointer;
   user-select: none;
   border: none;
-  font-size: 20px;
-  padding: 1.5rem 2rem;
+  font-size: 2.1rem;
+  padding: 2.5rem 4.6rem;
   height: auto;
   color: white;
   background-color: $red;
@@ -169,11 +169,11 @@ $buttonPadding: 12px;
   user-select: none;
   border: none;
   font-size: 20px;
-  padding: 1.5rem 2rem;
+  padding: 2.2rem 2rem;
   height: auto;
   color: white;
   background-color: $red;
-  min-width: 142px;
+  width: 21rem;
 }
 .secondary {
   display: block;
@@ -186,9 +186,9 @@ $buttonPadding: 12px;
   cursor: pointer;
   user-select: none;
   font-size: 20px;
-  padding: 1.5rem 2rem;
+  padding: 2.2rem 2rem;
   height: auto;
   color: $red;
-  min-width: 142px;
   border: 2px solid;
+  width: 21rem;
 }
