@@ -71,27 +71,33 @@ const FrameworkPage = (props) => {
         <h2 className={styles.casesHeading}>Use Cases</h2>
         <div className={styles.cases}>
           <div className={styles.case}>
-            <img role='presentation' src='/assets/images/icon-web-backend.svg' />
-            <h3>Web Backend</h3>
-            <p>Whether you’re building a public API or an internal backend for your app, the Serverless Framework is the easiest and most cost-effective way to build a production ready backend.</p>
+            <div>
+              <img role='presentation' src='/assets/images/icon-web-backend.svg' />
+              <h3>Web Backend</h3>
+              <p>Whether you’re building a public API or an internal backend for your app, the Serverless Framework is the easiest and most cost-effective way to build a production ready backend.</p>
+            </div>
             <div className={styles.caseButtons}>
               <Button kind='primary'>View Example</Button>
               <Button kind='secondary'>Case Study</Button>
             </div>
           </div>
           <div className={styles.case}>
-            <img role='presentation' src='/assets/images/icon-mobile-backend.svg' />
-            <h3>Mobile Backend</h3>
-            <p>The Serverless Framework is an easy and affordable way for mobile developers to spin-up an auto-scaling backend for their app. No maintenance or previous cloud experience required.</p>
+            <div>
+              <img role='presentation' src='/assets/images/icon-mobile-backend.svg' />
+              <h3>Mobile Backend</h3>
+              <p>The Serverless Framework is an easy and affordable way for mobile developers to spin-up an auto-scaling backend for their app. No maintenance or previous cloud experience required.</p>
+            </div>
             <div className={styles.caseButtons}>
               <Button kind='primary'>View Example</Button>
               <Button kind='secondary'>Case Study</Button>
             </div>
           </div>
           <div className={styles.case}>
-            <img role='presentation' src='/assets/images/icon-data-processing.svg' />
-            <h3>Data Processing</h3>
-            <p>The event-driven nature of the Serverless Framework makes it great for stream-based data processing. Continous scaling and subsecond metering mean it’s affordable and low-maintenence.</p>
+            <div>
+              <img role='presentation' src='/assets/images/icon-data-processing.svg' />
+              <h3>Data Processing</h3>
+              <p>The event-driven nature of the Serverless Framework makes it great for stream-based data processing. Continous scaling and subsecond metering mean it’s affordable and low-maintenence.</p>
+            </div>
             <div className={styles.caseButtons}>
               <Button kind='primary' className={styles.button}>View Example</Button>
               <Button kind='secondary'>Case Study</Button>
