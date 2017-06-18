@@ -89,6 +89,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .customerLogo {
   max-height: 8rem;
