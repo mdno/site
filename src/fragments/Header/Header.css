@@ -9,7 +9,7 @@
 .bumper {
 }
 .navLeft {
-  margin-left: 6rem;
+
 }
 .navFixed, .navWrapper, .navItems, .navItem {
   height: $navHeight;
