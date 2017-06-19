@@ -66,9 +66,8 @@
 .navItems {
   list-style: none;
   font-family: "Gibson", sans-serif;
-  font-size: 2.2rem;
-  word-spacing: 2px;
-  letter-spacing: 0.75px;
+  font-size: 2.3rem;
+  letter-spacing: 0.02em;
   text-transform: lowercase;
   ;
   li, a {

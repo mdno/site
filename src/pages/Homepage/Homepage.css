@@ -61,7 +61,7 @@ a.yellowLink {
   transform-origin: 0 0;
   background-color: $black2;
   padding: 1.75rem 2rem;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   color: #fff;
 }
 .heroStrip2 {
@@ -69,7 +69,8 @@ a.yellowLink {
   transform-origin: 0 0;
   background-color: $black2;
   padding: 1.75rem 2rem;
-  font-size: 2rem;
+  font-size: 2.1rem;
+  letter-spacing: -0.005em;
   color: #fff;
 }
 .cta {
@@ -78,7 +79,8 @@ a.yellowLink {
   align-items: center;
   font-family: Serverless, Gibson, monospace;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: -0.01em;
 }
 .cta a {
   padding: 2rem 2.5rem;
@@ -132,6 +134,9 @@ a.yellowLink {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .customerLogo {
   max-height: 8rem;
@@ -170,9 +175,11 @@ a.yellowLink {
 }
 .eventContent {
   width: 65%;
-  text-transform: lowercase;
-  border-left: 2px solid #e8e8e8;
   padding-left: 6rem;
+  border-left: 2px solid #e8e8e8;
+  font-size: 2.5rem;
+  letter-spacing: 0.01em;
+  text-transform: lowercase;
   ;
 
   & .eventAction {
@@ -183,11 +190,11 @@ a.yellowLink {
 }
 .eventName {
   font-size: 3rem;
+  letter-spacing: -0.05em;
   font-family: Serverless, Gibson, monospace;
   font-weight: 400;
 }
 .eventDescription {
-  font-size: 2rem;
   margin-top: 0;
 }
 
@@ -235,7 +242,8 @@ a.yellowLink {
 .title {
   margin-bottom: 3rem;
   font-weight: 500;
-  font-size: 6rem;
+  font-size: 6.1rem;
+  letter-spacing: -0.03em;
   font-family: Serverless, monospace;
   text-transform: lowercase;
 }
@@ -253,8 +261,9 @@ a.yellowLink {
 }
 .praiseText {
   max-width: 60rem;
-  font-size: 2.2rem;
-  line-height: 1.7;
+  font-size: 2.5rem;
+  letter-spacing: 0.01em;
+  line-height: 1.68;
 }
 .praiseAuthor {
   display: block;
