@@ -31,7 +31,7 @@ const Footer = (props) => {
               <Link to='/about'>About Serverless</Link>
               <Link to='/framework/'>Framework Doc</Link>
               <Link to='/status'>Project Status</Link>
-              <Link to='/beta'>Join Beta</Link>
+              <Link to='/beta' className={styles.linkSpecial}>Join Beta</Link>
             </div>
             <div className={styles.linksBlock}>
               <a href='https://gitter.im/serverless/serverless'>Chat on Gitter</a>
