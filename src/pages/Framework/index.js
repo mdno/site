@@ -64,7 +64,7 @@ const FrameworkPage = (props) => {
           <a className={styles.link}>Serverless Newsletter</a>
           <a className={styles.link} href='https://forum.serverless.com/'>Serverless Forum</a>
           <a className={styles.link} href='https://gitter.im/serverless/serverless'>Serverless Gitter</a>
-          <a className={styles.link} href='https://www.github.com/serverless/serverless'>GitHub 16,540 Stars</a>
+          <a className={styles.link} href='https://www.github.com/serverless/serverless'><img src='/assets/images/github-logo.svg' /> 16,540 Stars</a>
         </div>
       </div>
       <div className={styles.section}>

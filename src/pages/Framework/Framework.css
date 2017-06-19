@@ -127,6 +127,17 @@
   margin-right: 2rem;
   margin-bottom: 3.5rem;
   border: 3px solid;
+  ;
+
+  &:last-child {
+    border: none;
+    ;
+
+    img {
+      width: 32px;
+      vertical-align: sub;
+    }
+  }
 }
 .casesHeading {
   font-family: Serverless, monospace;
