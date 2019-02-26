@@ -34,7 +34,9 @@
     "postbuild": "node scripts/redirects.js",
     "static": "cd dist && http-server",
     "pretest": "npm run lint",
-    "dll": "webpack --display-chunks --color --config webpack.DLL.babel.js"
+    "dll": "webpack --display-chunks --color --config webpack.DLL.babel.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@serverless/ui-components": "0.0.5",
@@ -57,7 +59,8 @@
     "react-svg-inline": "^1.1.0",
     "redux": "^3.0.0",
     "redux-thunk": "^2.1.0",
-    "whatwg-fetch": "^0.11.0"
+    "whatwg-fetch": "^0.11.0",
+    "snyk": "^1.134.2"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
@@ -183,5 +186,6 @@
   },
   "dllPlugin": {
     "path": "node_modules/@dummy-dll-folder"
-  }
+  },
+  "snyk": true
 }
