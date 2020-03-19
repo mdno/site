@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "hubspot": "^0.4.4"
+    "hubspot": "^1.0.0"
   }
 }
