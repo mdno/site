@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "customerio-node": "^0.2.0"
+    "customerio-node": "^3.0.0"
   }
 }
